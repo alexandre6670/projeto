@@ -1,0 +1,15 @@
+
+h1{
+    color: blue;
+    background-color: bisque;
+    text-align: center;
+    font-size: 36px;
+}
+
+body{
+    background-color: black;
+}
+
+form{
+    background-color: beige;
+}
