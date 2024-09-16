@@ -1,0 +1,38 @@
+header{
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    
+}
+
+.caixa{
+    text-align: center;
+    background-color: antiquewhite;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 30%;
+    width: 40%;
+
+}
+
+.caixa2{
+    text-align: center;
+    background-color: antiquewhite;
+    width: 40%;
+    margin-left: 30%;
+    height: 100px;
+    border-radius: 10px;
+    
+}
+
+.caixa3{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}

@@ -1,0 +1,47 @@
+header{
+    background-color: orangered;
+    text-align: center;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+
+h2{
+    text-align: center;
+}
+
+.bloco1{
+    text-align: center;
+    background-color: antiquewhite;
+    width: 35%;
+    margin-left: 30%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.bloco2{
+    text-align: center;
+    background-color: antiquewhite;
+    width: 35%;
+    margin-left: 30%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.tabela{
+    background-color: antiquewhite;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 560px;
+}
+
+.descriçao{
+    background-color: black;
+    color: white;
+}
