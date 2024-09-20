@@ -6,7 +6,7 @@
 
 /* Aqui você irá adicionar as media queries para tornar a página responsiva complete as lacunas*/
 /* Para telas menores que 768px */
-@media (max-width:700px) {
+@media (max-width:760px) {
     body {
         background-color: #e6ffe6; 
     }
@@ -54,13 +54,13 @@
         
         background-color: #009933;
         color: white;
-        ________________: 20px;/*espaçamento interno*/
+        padding: 20px;/*espaçamento interno*/
         text-align: center;/*alinhamento de texto*/
     }
 }
 
 /* Para telas com tamanho mínimo de 768px ou maiores (desktop) */
-@media (min-width:800px) {
+@media (min-width:768px) {
     body {
         background-color: white;
     }
@@ -97,7 +97,7 @@
 
     img {
         display: inline; /* Exibe as imagens normalmente */
-        ___________: _________/* Define a largura das imagens 500 em px*/
+        width: 500px;*
     }
 
     div {
@@ -110,16 +110,17 @@
     }
 
    /* estilização apenas para os parágrafos "filhos" de divs*/
-    ___ ___{
+    div p{
         text-align: left;
     }
 
     footer{
         background: color #093;;
        /* espaçamento interno*/
-       _____________ : 20px;
+       padding: 20px;
         text-align: center;
         color:aliceblue;
     }
+
 
 }

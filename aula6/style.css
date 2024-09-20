@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background: linear-gradient(rgb(16, 16, 16, 0.5), rgb(25, 25, 25, 0.5)), url(oficina.jpg);
+    background: linear-gradient(rgb(16, 16, 16, 0.5), rgb(25, 25, 25, 0.5)), url("https://images.pexels.com/photos/4489704/pexels-photo-4489704.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,23 +22,23 @@ body {
 header {
     width: 100%;
     height: 7vw;
-    background: rgba(204, 194, 81, 0.947);
-    display: flex;
-
+    background: rgb(199, 183, 1, 0.947);
 }
 
 .menu {
     text-transform: uppercase;
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 10px;
     align-items: center;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .logo {
+    font-size: 1.8rem;
+    letter-spacing: 0.4rem;
     cursor: pointer;
-    width: 7%;
 }
 
 .menu .lista-menu {
@@ -56,89 +56,144 @@ header {
     position: relative;
 }
 
-
-.menu .lista-menu a:before{
-    content:'';
-    position:absolute;
-    bottom:0px;
-    left:0px;
+.menu .lista-menu a::before{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
     width: 0px;
     height: 2px;
-    background-color: rgb(93, 77, 77);
+    background-color: wheat;
     transition: all 1s ease;
+}
 
-}.menu .lista-menu a:hover:before{
+.menu .lista-menu a:hover:before{
     width: 100%;
-    background-color:rgb(245, 28, 28);
+    background-color: yellow;
 }
-main{
-height:80vh;
-display: flex;
-justify-content: center;
 
-gap: 15px;
+main {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
-.main-content{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content:center;
-color:rgba(255, 255, 255, 0.600);
-font-size:20px;
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 228, 228);
+    font-size: 20px;
 }
-footer{
+
+footer {
     background-color: black;
     color: white;
-    padding:15px;
-    font-size:1.6rem;
-
+    padding: 20px 0;
+    font-size: 1.6rem;
 }
-.footer-container{
-    display:flex;
-    justify-content:space-evenly;
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
     align-items: flex-start;
     max-width: 1350px;
-    margin:15px;
-    margin-bottom:0 auto;
-    padding:20px;
-
-
+    margin: 0 auto;
+    margin-bottom: 0;
+    padding: 20px;
 }
 
-.foto-menu{
-    display: flex;
-    
-    height:25px;
-    cursor: pointer;
+.footer-form, .footer-contact {
+    flex: 1;
+    margin: 0 100px;
 }
 
-.fo
+.footer-form h3, .footer-contact h3 {
+    margin-bottom: 10px;
+}
 
-
-
-.footer-form form{
+.footer-form form {
     display: flex;
     flex-direction: column;
 }
 
-.footer-form-label {
+.footer-form label {
     margin-bottom: 5px;
 }
 
-.footer-form input{
+.footer-form input {
     margin-bottom: 10px;
     padding: 5px;
     font-size: 1.4rem;
 }
 
-.footer-form button{
+.footer-form button {
     padding: 10px;
-    font-size: 1.6;
+    font-size: 1.6rem;
     background-color: yellow;
     border: none;
     cursor: pointer;
 }
 
-.footer-contact p{
-    margin-bottom: 4px;
+.footer-contact p {
+    margin-bottom: 10px;
 }
+
+
+
+/* Estilo dos cards */
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+
+
+.card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin: 15px 0;
+    color: #333;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.card button {
+    background-color: #c7b701;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    
+    border-radius: 5px;
+    
+}
+
+.card button:hover {
+    background-color: #a79700;
+}
+

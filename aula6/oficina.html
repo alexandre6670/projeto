@@ -7,60 +7,65 @@
     <title>Oficina</title>
 </head>
 <body>
-
     <header>
         <div class="menu">
-            <img class="logo" src="redondo.png" alt="">
+            <h1 class="logo">Oficina</h1>
             <nav class="header-menu">
                 <ul class="lista-menu">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Serviço</a></li>
+                    <li><a href="#">Serviços</a></li>
                     <li><a href="#">Agendamento</a></li>
                     <li><a href="#">Contato</a></li>
-                    
-                        <img src="../imagens/instagram.png" alt="insta " class="foto-menu">
-                    
                 </ul>
             </nav>
-           
         </div>
     </header>
-
     <main>
         <div class="main-content">
-            <h1 class="titulo"> Serviços Automotivos </h1>
-            <h2 class="subtitulo"> Faça seus orçamento! </h2>
+            <h1 class="titulo">Serviços Automotivos</h1>
+            <h2 class="subtitulo">Faça seu orçamento!</h2>
+            
+            <div class="cards-container">
+                <div class="card">
+                    <img src="troca de oleo.jpg" alt="Troca de Óleo">
+                    <h3>Troca de Óleo</h3>
+                    <p>Mantenha o motor do seu carro funcionando perfeitamente com nossa troca de óleo rápida e eficiente.</p>
+                    <button>Saiba Mais</button>
+                </div>
+                <div class="card">
+                    <img src="alinhamento.jpg" alt="Alinhamento">
+                    <h3>Alinhamento</h3>
+                    <p>Alinhamento e balanceamento para garantir a segurança e o desempenho do seu veículo.</p>
+                    <button>Saiba Mais</button>
+                </div>
+                <div class="card">
+                    <img src="revisao.jpg" alt="Revisão Completa">
+                    <h3>Revisão Completa</h3>
+                    <p>Realize a revisão completa do seu carro para uma viagem sem preocupações.</p>
+                    <button>Saiba Mais</button>
+                </div>
+            </div>
+            
         </div>
     </main>
-    <hr>
     <footer>
         <div class="footer-container">
-            <div class="footer form">
+            <div class="footer-form">
                 <form action="#">
-                    <h3>Entre em Contato</h3>
-                    <label for="name">Nome</label><br>
+                    <label for="name">Nome:</label>
                     <input type="text" id="name" name="name"><br>
-                    <label for="email">E-mail</label><br>
-                    <input type="email" id="email" name="email" required><br><br>
-                    <button type="submit" id="button">Enviar</button>
-                    
-                   
-
-
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <button id="button-form" type="submit">Enviar</button>
                 </form>
-               
             </div>
             <div class="footer-contact">
-                <h3>Informações de contato</h3>
-                <label>Endereço:Rua de não sei das quantas</label><br>
-                <label>Endereço:Rua de não sei das quantas</label><br>
-                <label>Endereço:Rua de não sei das quantas</label><br>
+                <h3>Informações de Contato:</h3>
+                <p>Endereço: Rua Exemplo, 123</p>
+                <p>Email: contato@empresa.com.br</p>
+                <p>Telefone: (85) 9988776655</p>
             </div>
-
         </div>
     </footer>
-
-
-
 </body>
 </html>
