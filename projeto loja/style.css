@@ -1,0 +1,319 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ box-sizing: border-box;
+}
+
+header{    width: 100%;
+}
+
+main{
+    width: 100%;
+}
+
+.menu{
+background-color: black;
+    width: 100%;
+    height: 60px;
+    color:white;
+    font-size: 15px;
+    display:flex;
+    align-items: center; 
+    justify-content: center;
+    
+   
+   
+   
+}
+.logo label{
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+
+    
+
+}
+.menu-list a{
+    text-decoration:none;
+    color:white;
+    
+}
+
+
+.menu-list{
+    width: 100%;
+    height: 20px;
+    text-decoration: none;
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    
+    
+    
+}
+
+.search svg{
+    align-items: center;
+    margin: 10px;
+}
+.main-search{
+    width: 100%;
+    height: 80px;
+   
+    display: flex;
+   
+    
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.search input{
+    width: 70vw;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(181, 178, 178,0.2);
+    height: 40px;
+}
+    
+    .login label{
+        font-size: 15px;
+        
+    }
+.login{
+    width: 20%;
+    font-size: 11px;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-around;
+}
+.login svg{
+    cursor: pointer;
+}
+.login label{
+    cursor: pointer;
+}
+.menu .menu-list a::before{     
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+    width: 0px;
+    height: 2px;
+    
+    transition: all 0.5ms ease-in;
+}
+.menu .menu-list a:hover:before{
+    width: 80%;
+    background-color: white;
+}
+.titulo{
+    width: 100%;
+    height: 20px;
+    font-size: 30px;
+}
+.nav-list{
+   
+    width: 100%;
+    height: 30px;
+   
+    display: flex;
+   
+    align-items: center;
+
+}
+.nav-list button{
+border: none;
+color: black;
+width: 100%;
+height: 100%;
+position: relative;
+}
+.nav-list button::after{
+content: " ";
+width: 0%;
+height: 2px;
+background-color: black;
+position: absolute;
+left: 0;
+bottom: 0;
+
+
+}.nav-list button:hover::after{
+    width: 100%;
+}
+
+
+
+.titulo{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(35, 35, 35);
+
+}
+.titulo strong{
+    color:orangered;
+
+}
+.main-conteudo img{
+    width: 100%;
+   
+}
+.main-h1{
+    text-transform: uppercase;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.containers{
+
+    width: 300px;
+     height: 500px;
+
+
+
+}
+.conjunto img{
+    border-radius: 15px;
+    cursor: pointer;
+    
+    
+}
+.conjunto{
+    flex-wrap: wrap;
+
+     width:100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+main div>img{
+    width: 100%;
+}
+.interface{
+    
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+footer{
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+    color: white;
+    padding: 40px 0;
+}
+
+footer .line-footer1{
+    text-align: center;
+    
+    padding-bottom: 40px;
+}
+
+.line-footer1 h2{
+    font-size: 2.5rem;
+}
+
+.line-footer1 p{
+    font-size: 1.2rem;
+    margin: 10px 0 20px 0;
+}
+
+.line-footer1 form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line-footer1 form input[type=email]{
+    width: 300px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    outline: 0;
+}
+
+.line-footer1 form input[type=submit]{
+    width: 80px;
+    height: 40px;
+    background-color:red;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.line-footer1 form input[type=submit]:hover{
+    background-color: white;
+    color: red;
+}
+
+footer .line-footer2{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .line-footer2 .coluna-line-footer{
+    display: flex;
+    flex-direction: column;
+    max-width: calc(100% / 11);
+    
+}
+
+
+.line-footer2 .coluna-line-footer h3{
+    color: red;
+    margin-bottom: 20px;
+    
+}
+
+.line-footer2 .box-line-footer a{
+    color: white;
+    display: block;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 9rem;
+    
+
+}
+
+.coluna-line-footer .btn-redes button{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    border: 2px solid white;
+    margin: 5px;
+   color:rgb(229, 74, 50);
+   background: transparent;
+   
+}
+.line-footer3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
